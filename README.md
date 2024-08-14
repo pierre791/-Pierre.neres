@@ -13,7 +13,7 @@ nome; Lava e seca
 
 colocar aqui o diagrama de dados
 
-![](https://www.buscador.com/wp-content/uploads/2020/11/diagrama.png)
+![]()
 
 # 3. Diagrama de caso de uso
 
