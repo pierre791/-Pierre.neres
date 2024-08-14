@@ -41,7 +41,11 @@ Exercício 1:
 # 2. Diagrama do banco de dados
 
 
+<<<<<<< HEAD
 ```Mermaid
+=======
+![]()
+>>>>>>> c31f2ee2b5d54c7b0d62ccd37adbf6f71f47ec92
 
 erDiagram
 
