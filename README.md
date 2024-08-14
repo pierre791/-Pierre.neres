@@ -1,13 +1,13 @@
 # -Pierre.neres
 A.D.S
 
-Autor; pierre
+Autor= Pierre Neres Tomé
 
 # 1. Descrição de sistema 
 
 Sistema para clinica veterinaria
 
-nome; Lava e seca
+nome= Carinho de Pets
 
 # 2. Diagrama do banco de dados
 
