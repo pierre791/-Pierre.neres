@@ -114,11 +114,8 @@ erDiagram
 ----
 # 3. Diagrama de caso de uso
 
-```
 
-
-```
-
+[https://github.com/pierre791/-Pierre.neres/blob/main/Diagrama%20sem%20nome.drawio.png](https://github.com/pierre791/-Pierre.neres/blob/main/Diagrama%20sem%20nome.drawio.png)
 ----
 # 4. Principais telas do sistema 
 
