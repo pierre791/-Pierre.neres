@@ -125,7 +125,8 @@ erDiagram
 # 5.Arquitetura de sistema
 
 
-```graph TD;
+```mermaid
+graph TD;
 
     %% Definição de Contêineres
     subgraph WebClient [Cliente Web]
