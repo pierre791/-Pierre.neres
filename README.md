@@ -41,8 +41,7 @@ Exercício 1:
 # 2. Diagrama do banco de dados
 
 
-```Mermaid
-
+``` 
 erDiagram
 
     CLIENTE {
@@ -106,16 +105,14 @@ erDiagram
     ANIMAL ||--o{ AGENDA : "tem"
     CLIENTE ||--o{ AGENDA : "faz"
     ATENDENTE ||--o{ AGENDA : "verifica"
-
-
-
 ```
+
 
 ----
 # 3. Diagrama de caso de uso
 
 
-[https://github.com/pierre791/-Pierre.neres/blob/main/Diagrama%20sem%20nome.drawio.png](https://github.com/pierre791/-Pierre.neres/blob/main/Diagrama%20sem%20nome.drawio.png)
+[https://github.com/pierre791/-Pierre.neres/blob/main/Diagrama%20sem%20nome.drawio.png?raw=true](https://github.com/pierre791/-Pierre.neres/blob/main/Diagrama%20sem%20nome.drawio.png?raw=true)
 ----
 # 4. Principais telas do sistema 
 
@@ -125,4 +122,12 @@ erDiagram
 ---
 # 5.Arquitetura de sistema
 
-![]()
+
+```graph TD;
+
+    Client[Cliente Web] --> |HTTP Request| GHP[Aplicação GHP];
+    GHP --> |Consulta| DB[Servidor de Banco de Dados];
+    DB --> |Resposta com Dados| GHP;
+    GHP --> |HTTP Response| Client;
+
+```
