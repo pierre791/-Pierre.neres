@@ -125,9 +125,50 @@ erDiagram
 
 ```graph TD;
 
-    Client[Cliente Web] --> |HTTP Request| GHP[Aplicação GHP];
-    GHP --> |Consulta| DB[Servidor de Banco de Dados];
-    DB --> |Resposta com Dados| GHP;
-    GHP --> |HTTP Response| Client;
+    %% Definição de Contêineres
+    subgraph WebClient [Cliente Web]
+        Browser[Browser]
+    end
+    
+    subgraph MobileClient [Cliente Mobile]
+        MobileApp[Aplicativo Mobile]
+    end
+    
+    subgraph GHPC [Aplicação GHP]
+        WebApp[Aplicação Web]
+    end
+    
+    subgraph API [API REST]
+        VeterinarioAPI[API Veterinários]
+        ClienteAPI[API Clientes]
+        AgendamentoAPI[API Agendamento]
+        AtendimentoAPI[API Atendimento]
+    end
+    
+    subgraph Database [Servidor de Banco de Dados]
+        ClientesDB[(Clientes DB)]
+        AnimaisDB[(Animais DB)]
+        AgendamentosDB[(Agendamentos DB)]
+        FichasDB[(Fichas e Prontuários DB)]
+    end
+    
+    %% Definição de Fluxos de Informação
+    Browser --> |HTTP Request| WebApp
+    MobileApp --> |API Request| VeterinarioAPI
+    
+    WebApp --> |Consulta| VeterinarioAPI
+    WebApp --> |Consulta| ClienteAPI
+    WebApp --> |Consulta| AgendamentoAPI
+    WebApp --> |Consulta| AtendimentoAPI
+    
+    VeterinarioAPI --> |Consulta/Atualização| ClientesDB
+    ClienteAPI --> |Consulta/Atualização| ClientesDB
+    AgendamentoAPI --> |Consulta/Atualização| AgendamentosDB
+    AtendimentoAPI --> |Consulta/Atualização| FichasDB
+    
+    VeterinarioAPI --> |Consulta| AnimaisDB
+    ClienteAPI --> |Consulta| AnimaisDB
+    
+    VeterinarioAPI --> |Atualização| FichasDB
 
 ```
