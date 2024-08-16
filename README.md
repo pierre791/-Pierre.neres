@@ -41,7 +41,7 @@ Exercício 1:
 # 2. Diagrama do banco de dados
 
 
-``` 
+```mermaid
 erDiagram
 
     CLIENTE {
