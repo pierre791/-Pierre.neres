@@ -136,14 +136,14 @@ erDiagram
 # 3. Diagrama de caso de uso
 
 
-![https://github.com/pierre791/-Pierre.neres/blob/main/Diagrama%20sem%20nome.drawio.png](https://github.com/pierre791/-Pierre.neres/blob/main/Diagrama%20sem%20nome.drawio.png?raw=true)
+![https://github.com/pierre791/-Pierre.neres/blob/main/imagem/Diagrama%20sem%20nome.drawio.png?raw=true](https://github.com/pierre791/-Pierre.neres/blob/main/imagem/Diagrama%20sem%20nome.drawio.png?raw=true)
 ----
 # 4. Principais telas do sistema 
 
 
-![https://github.com/pierre791/-Pierre.neres/blob/main/Sem%20t%C3%ADtulo.png](https://github.com/pierre791/-Pierre.neres/blob/main/Sem%20t%C3%ADtulo.png?raw=true)
-![https://github.com/pierre791/-Pierre.neres/blob/main/trabalho%20de%20escola.png](https://github.com/pierre791/-Pierre.neres/blob/main/trabalho%20de%20escola.png?raw=true)
-![https://github.com/pierre791/-Pierre.neres/blob/main/com%20titulo.png](https://github.com/pierre791/-Pierre.neres/blob/main/com%20titulo.png?raw=true)
+![https://github.com/pierre791/-Pierre.neres/blob/main/imagem/Sem%20t%C3%ADtulo.png?raw=true](https://github.com/pierre791/-Pierre.neres/blob/main/imagem/Sem%20t%C3%ADtulo.png?raw=true)
+![https://github.com/pierre791/-Pierre.neres/blob/main/imagem/trabalho%20de%20escola.png?raw=true](https://github.com/pierre791/-Pierre.neres/blob/main/imagem/trabalho%20de%20escola.png?raw=true)
+![https://github.com/pierre791/-Pierre.neres/blob/main/imagem/com%20titulo.png?raw=true](https://github.com/pierre791/-Pierre.neres/blob/main/imagem/com%20titulo.png?raw=true)
 
 ---
 # 5.Arquitetura de sistema
